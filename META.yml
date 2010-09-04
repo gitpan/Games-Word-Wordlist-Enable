@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Games-Word-Wordlist-Enable
-version:            2009112301
+version:            2010090401
 abstract:           Manages the Enable word list
 author:
     - Abigail <cpan@abigail.be>
@@ -18,8 +18,10 @@ build_requires:
     warnings:             0
 requires:
     Games::Word::Wordlist:  0
+    List::MoreUtils:      0
     perl:                 5.006
     strict:               0
+    Test::Deep::NoTest:   0
     warnings:             0
 resources:
     repository:  git://github.com/Abigail/Games--Word--Wordlist--Enable.git
@@ -27,7 +29,7 @@ no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
